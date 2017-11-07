@@ -1,0 +1,71 @@
+body
+{
+	font-family: "Calibri";
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e3b9a+20,2a61d8+50,1e3b9a+80&0+0,0.8+15,1+19,1+81,0.8+85,0+100 */
+	background: -moz-linear-gradient(45deg, rgba(30,59,154,0) 0%, rgba(30,59,154,0.8) 15%, rgba(30,59,154,1) 19%, rgba(30,59,154,1) 20%, rgba(42,97,216,1) 50%, rgba(30,59,154,1) 80%, rgba(30,59,154,1) 81%, rgba(30,59,154,0.8) 85%, rgba(30,59,154,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgba(30,59,154,0) 0%,rgba(30,59,154,0.8) 15%,rgba(30,59,154,1) 19%,rgba(30,59,154,1) 20%,rgba(42,97,216,1) 50%,rgba(30,59,154,1) 80%,rgba(30,59,154,1) 81%,rgba(30,59,154,0.8) 85%,rgba(30,59,154,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgba(30,59,154,0) 0%,rgba(30,59,154,0.8) 15%,rgba(30,59,154,1) 19%,rgba(30,59,154,1) 20%,rgba(42,97,216,1) 50%,rgba(30,59,154,1) 80%,rgba(30,59,154,1) 81%,rgba(30,59,154,0.8) 85%,rgba(30,59,154,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e3b9a', endColorstr='#001e3b9a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.index h1, h2
+{
+	margin: 0;
+}
+.index h3
+{
+	text-decoration: underline;
+	margin-left: 85px;
+}
+.index .Standard-paragraph
+{
+	width: 710px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.index .Tables
+{
+	display: table;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+.index .Tables .row .desc
+{
+	margin-left: 5px;
+	width: 140px;
+	display: inline-block;
+	border-bottom: 1px solid black;
+}
+
+.index .Tables .row .image
+{
+	margin-left: 5px;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.index .aside
+{
+	font-style: italic;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.index .change
+{
+	margin-left: 5px;
+	width: 140px;
+	display: inline-block;
+	border-bottom: 1px solid black;
+	color: red;
+}
+@media screen and (max-width: 320px)
+{
+	.index .Standard-paragraph { width: 280px; }
+	.index .Tables{margin-left: 10px; margin-right:40px;}
+	.index h3{margin-left: 35px;}
+}
+@media screen and (min-width: 480px) and (max-width: 768px)
+{
+	.index .Standard-paragraph { width: 455px; }
+}
