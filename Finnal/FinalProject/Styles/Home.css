@@ -1,1 +1,53 @@
-﻿
+﻿body
+{
+    width: 520px;
+    font-family: Calibri;
+    font-size:12px;
+}
+.home .title
+{
+    text-align: left;
+    font-family:Cambria;
+    font-size:16px;
+    font:bold;
+}
+.home .paragraph
+{
+    text-align:left;
+    font-style:italic;
+    margin-top:20px;
+}
+
+.home .logIn 
+{
+    display: table;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.home .logIn .row 
+{
+    display: inline-flex;
+    margin-bottom: -1px;
+    border-bottom: 1px solid black;
+    height: 200px;
+    width:520px;
+
+}
+.home .logIn .row .desc
+{
+    width : 250px;
+}
+.home .logIn .row .enterInfo
+{
+    display: inline-table;
+    margin-top: 80px;
+    margin-right:120px;
+}
+.home .logIn .row .enterInfo .button
+{
+    display:table;
+    border: 1px solid black;
+    margin-left:170px;
+}
